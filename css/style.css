@@ -14,9 +14,6 @@ body {
   background: #efefef;
 }
 
-.nike {
-  font-size: 11rem;
-}
 
 .container {
   min-height: 100vh;
@@ -135,8 +132,29 @@ body {
 .shoe.show {
   opacity: 1;
 }
+
 .info {
   width: 50%;
-  
+  /* min-height: 475px; */
+  background-color: #fff;
+  z-index: 1;
+  padding: 35px 40px;
+  box-shadow: 15px 0 35px rgba(0, 0, 0, .1),
+  0 -15px 35px rgba(0, 0, 0, .1),
+  0 15px 35px rgba(0, 0, 0, .1);
+}
 
+.shoeName {
+  padding: 0 0 10px 0;
+}
+
+.shoeName div {
+  display: flex;
+  align-items: center;
+}
+
+.shoeName div .big {
+  margin-right: 10px;
+  font-size: 2rem;
+  color: #333;
 }

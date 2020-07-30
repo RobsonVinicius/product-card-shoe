@@ -14,10 +14,6 @@ body {
   background: #efefef;
 }
 
-.shoe {
-  display: none;
-}
-
 .nike {
   font-size: 11rem;
 }
@@ -104,13 +100,27 @@ body {
   text-align: center;
   font-size: 1.3rem;
   color: var(--second);
-  
+  transition: .3s;  
+}
+
+.share:hover {
+  transform: scale(1.1);
 }
 
 .share i {
   line-height: 50px;
 }
 
+.nike {
+  position: absolute;
+  top: 85px;
+  left: 15px;
+  font-size: 11rem;
+  text-transform: uppercase;
+  line-height: .9;
+  color: #fff;
+  opacity: .1;
+}
 
 .info {
   width: 50%;

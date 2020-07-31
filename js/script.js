@@ -7,8 +7,13 @@ function changeSize() {
 }
 
 function changeColor() {
+  let primary = this.getAttribute('primary');  
+
+
   colors.forEach(c => c.classList.remove('active'));
   this.classList.add('active');
+  
+  document.documentElement.style.setProperty('--primary', primary);
 }
 
 sizes.forEach(size => size.addEventListener('click', changeSize));

@@ -1,6 +1,7 @@
 const sizes = document.querySelectorAll('.size');
 const colors = document.querySelectorAll('.color');
 const shoes = document.querySelectorAll('.shoe');
+const gradients = document.querySelectorAll('.gradient');
 
 function changeSize() {
   sizes.forEach(size => size.classList.remove('active'));

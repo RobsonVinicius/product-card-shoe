@@ -54,7 +54,7 @@ function changeHeight(){
       shoeBg.style.height = `${shoeHeight * 0.9}px`;
   }
   else{
-      shoeBg.style.height = "475px";
+      shoeBg.style.height = "570px";
   }
 }
 
